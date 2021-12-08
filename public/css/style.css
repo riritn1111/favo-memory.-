@@ -1,0 +1,250 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+span{
+	color: red;
+}
+/**
+ * ログインヘッダー
+ */
+.login_logo{
+	background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
+  url(images/bg-cherrybrossam.jpg);
+  background-size: cover;
+	width: 100%;
+	height: 50px;
+	font-size: 40px;
+	padding-top: 14px;
+	padding-bottom: 5px;
+}
+
+.logo_a{
+	color: white;
+	font-family: 'Chalkduster', cursive;
+	margin-left: 20px;
+
+}
+
+/**
+ * フッター
+ */
+.footer{
+	text-align: center;
+	background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
+  url(images/bg-cherrybrossam.jpg);
+  background-size: cover;
+}
+.footer_logo{
+	
+	width: 100%;
+	height: 50px;
+	padding-top: 20px;
+}
+
+.footer a{
+	font-size: 20px;
+	color: white;
+}
+
+/**
+ * ログイン
+ */
+.login{
+	width: 100%;
+	text-align: center;
+}
+
+.login_tl{
+	font-size: 45px;
+	margin-top: 5%;
+}
+
+.form_email p{
+	font-size: 25px;
+	padding-top: 25px;
+}
+
+.form_email a{
+	font-size: 12px;
+	color: red;
+}
+
+
+#login_email{
+	margin-top: 15px;
+	width: 15%;
+	height: 30px;
+}
+
+.form_password p{
+	font-size: 25px;
+	padding-top: 25px;
+}
+
+.form_password a{
+	font-size: 12px;
+	color: red;
+}
+
+#login_password{
+	margin-top: 15px;
+	width: 15%;
+	height: 30px;
+}
+
+.login_button{
+	margin-top: 50px;
+}
+
+.login_menu{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 120px;
+}
+
+/**
+ * サインアップ
+ */
+#su_email{
+	margin-top: 0px;
+	width: 15%;
+	height: 30px;
+}
+
+#su_password{
+	margin-top: 10px;
+	width: 15%;
+	height: 30px;
+}
+
+#su_button{
+	margin-bottom: 50px;
+}
+
+/**
+ * ヘッダー
+ */
+.header{
+	background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
+  url(images/bg-cherrybrossam.jpg);
+  background-size: cover;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header_logo{
+	width: 100%;
+	height: 50px;
+	font-size: 40px;
+	padding-top: 14px;
+	margin-left: 15px;
+
+}
+
+.header_logo a{
+	color: white;
+	font-family: 'Chalkduster', cursive;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+.header_list{
+	width: 100%;
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header_list a{
+	color: white;
+}
+
+/**
+ * メイン画面
+ */
+.main{
+	text-align: center;
+
+
+}
+
+.main_name{
+	font-size: 30px;
+	font-family: 'Corben', cursive;
+
+}
+.main_fot img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.main_tex{
+	font-size: 20px;
+}
+.main_day{
+	font-size: 30px;
+}
+.main_prf{
+	font-size: 8px;
+}
+.button_main{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/**
+ * プロフィール
+ */
+.profile_tl{
+	font-size: 30px;
+}
+.list_name {
+	margin-top: 50px;
+}
+.list_fot{
+	margin-top: 50px;
+}
+#fot{
+	margin-top: 10px;
+}
+.list_day{
+	margin-top: 50px;
+}
+.list_count{
+	margin-top: 50px;
+}
+.list_count p{
+font-size: 15px;
+}
+.pr_button{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+#pr_button{
+	margin-right: 30px;
+}
+/**
+ * 検索
+ */
+#button_week{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.week_img img{
+	width: 100px;
+	height: 150px;
+}
+/**
+ * お気に入り
+ */
+.favo_img img{
+	width: 100px;
+	height: 150px;
+}
+
+
+
+
